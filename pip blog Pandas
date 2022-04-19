@@ -1,0 +1,112 @@
+pandas in python
+what is Pandas?
+pandas is a python library used for working with data sets.
+It has functions for analyzing, cleaning, exploring, and manipulating data
+why pandas used?
+pandas allow us to analyze big data and make conclusions based on statistical theories.
+pandas can clean messy data sets, and make them readable, and relevant
+relevant data is very important in data science.
+install and import pandas
+for install pandas enter the command “ pip install pandas”
+for import pandas
+
+Creating a Dataframe
+A data frame can be created using various methods:
+using CSV
+
+2. using Excel
+
+3. using python Dictionary
+
+Various Operations using Dataframe
+shape():
+Dataframe stores the number of rows and columns as a tuple. it is also possible to unpack and store them in separate variables.
+
+head()
+this function is used to get the first n row.
+
+tail()
+this function displays the last five rows of the data frame by default.it takes in a single parameter: the number of rows this parameter displays the number of rows of our choice.
+
+max()
+this max() method returns a series with the maximum value of each column.
+
+mean()
+this function returns the mean of the values for the requested axis
+
+describe()
+this function returns the statistical summary of the dataframe or series
+
+replace()
+this function is used to replace a string,regex,list,dictionary,series,number etc. from data frame.
+
+for string
+
+for list
+
+for Dictionary
+
+for regex
+groupby()
+this function is used to split the data into groups based on some criteria.
+
+get_group()
+in order to select a group, we can select group using groupby.get_group()
+
+merge()
+
+
+normal merge
+
+outer join
+
+inner join
+
+left join
+
+right join
+pivot()
+this function is used to reshape a given dataframe organized by a given index/ column values
+
+pivot_table()
+
+
+melt()
+this function unpivots a DataFrame from wide format to long format, optionally leaving identifier variables set
+
+
+
+Data Cleaning
+for data cleaning, there are two steps are nassecery
+step 1 Detecting NA, NaN, N/a
+
+
+step 2 removing these values or filling these value
+dropna()
+this method removes the row that contains NULL values
+
+removing null values
+fillna()
+this method replaces the NULL values with a specified value
+
+filling null values
+Data Wrangling
+filter by value
+
+sorting
+
+identify duplicates
+
+information about dataframe
+
+Application of pandas
+Recommendation system on an online platform
+Economics
+Neuroscience
+Prediction of stocks
+Advertising
+Statistical analysis
+Natural language processing
+Analytics
+Data science
+Big Data
